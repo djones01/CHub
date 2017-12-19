@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index CFG_POSITION_LEG_EXTRA_INF_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "HCM_ADMIN"."CFG_POSITION_LEG_EXTRA_INF_PK" ON "HCM_ADMIN"."CFG_POSITION_LEG_EXTRA_INFO" ("POSITION_LEG_ID", "EFFECTIVE_START_DATE", "EFFECTIVE_END_DATE") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;

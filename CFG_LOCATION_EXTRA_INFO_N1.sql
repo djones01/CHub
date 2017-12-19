@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index CFG_LOCATION_EXTRA_INFO_N1
+--------------------------------------------------------
+
+  CREATE INDEX "HCM_ADMIN"."CFG_LOCATION_EXTRA_INFO_N1" ON "HCM_ADMIN"."CFG_LOCATION_EXTRA_INFO" ("LOCATION_ID", "INFORMATION_TYPE", "EFFECTIVE_START_DATE", "EFFECTIVE_END_DATE") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;

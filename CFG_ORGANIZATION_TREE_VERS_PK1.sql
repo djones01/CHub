@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index CFG_ORGANIZATION_TREE_VERS_PK1
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "HCM_ADMIN"."CFG_ORGANIZATION_TREE_VERS_PK1" ON "HCM_ADMIN"."CFG_ORGANIZATION_TREE_VERSION" ("TREE_STRUCTURE_CODE", "TREE_CODE") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;
