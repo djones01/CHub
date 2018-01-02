@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index STG_PER_AREA_OF_RESPONSIBI_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "HCM_ADMIN"."STG_PER_AREA_OF_RESPONSIBI_PK" ON "HCM_ADMIN"."STG_PER_AREA_OF_RESPONSIBILITY" ("ASG_RESPONSIBILITY_ID") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;

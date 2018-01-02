@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index CFG_ORGANIZATION_INFO_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "HCM_ADMIN"."CFG_ORGANIZATION_INFO_PK" ON "HCM_ADMIN"."CFG_ORGANIZATION_INFO" ("ORG_INFORMATION_ID", "EFFECTIVE_START_DATE", "EFFECTIVE_END_DATE") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;

@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Index STG_PER_AREA_OF_RESP_N3
+--------------------------------------------------------
+
+  CREATE INDEX "HCM_ADMIN"."STG_PER_AREA_OF_RESP_N3" ON "HCM_ADMIN"."STG_PER_AREA_OF_RESPONSIBILITY" ("POSITION_HIERARCHY_ID", "TOP_POSITION_ID", "HIERARCHY_LEVELS") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "USERS" ;
